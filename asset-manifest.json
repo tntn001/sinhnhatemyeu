@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/sinhnhatemyeu/static/css/main.45fd82c0.chunk.css",
-    "main.js": "/sinhnhatemyeu/static/js/main.b8018c9f.chunk.js",
-    "main.js.map": "/sinhnhatemyeu/static/js/main.b8018c9f.chunk.js.map",
-    "runtime-main.js": "/sinhnhatemyeu/static/js/runtime-main.2c7c50c2.js",
-    "runtime-main.js.map": "/sinhnhatemyeu/static/js/runtime-main.2c7c50c2.js.map",
-    "static/css/2.383c0125.chunk.css": "/sinhnhatemyeu/static/css/2.383c0125.chunk.css",
-    "static/js/2.960aef49.chunk.js": "/sinhnhatemyeu/static/js/2.960aef49.chunk.js",
-    "static/js/2.960aef49.chunk.js.map": "/sinhnhatemyeu/static/js/2.960aef49.chunk.js.map",
+    "main.js": "/sinhnhatemyeu/static/js/main.9cb7ec8a.chunk.js",
+    "main.js.map": "/sinhnhatemyeu/static/js/main.9cb7ec8a.chunk.js.map",
+    "runtime-main.js": "/sinhnhatemyeu/static/js/runtime-main.25716bab.js",
+    "runtime-main.js.map": "/sinhnhatemyeu/static/js/runtime-main.25716bab.js.map",
+    "static/css/2.f1b2261f.chunk.css": "/sinhnhatemyeu/static/css/2.f1b2261f.chunk.css",
+    "static/js/2.3ca108d0.chunk.js": "/sinhnhatemyeu/static/js/2.3ca108d0.chunk.js",
+    "static/js/2.3ca108d0.chunk.js.map": "/sinhnhatemyeu/static/js/2.3ca108d0.chunk.js.map",
     "index.html": "/sinhnhatemyeu/index.html",
-    "static/css/2.383c0125.chunk.css.map": "/sinhnhatemyeu/static/css/2.383c0125.chunk.css.map",
+    "static/css/2.f1b2261f.chunk.css.map": "/sinhnhatemyeu/static/css/2.f1b2261f.chunk.css.map",
     "static/css/main.45fd82c0.chunk.css.map": "/sinhnhatemyeu/static/css/main.45fd82c0.chunk.css.map",
-    "static/js/2.960aef49.chunk.js.LICENSE.txt": "/sinhnhatemyeu/static/js/2.960aef49.chunk.js.LICENSE.txt",
+    "static/js/2.3ca108d0.chunk.js.LICENSE.txt": "/sinhnhatemyeu/static/js/2.3ca108d0.chunk.js.LICENSE.txt",
     "static/media/avatar.e93cef30.jpg": "/sinhnhatemyeu/static/media/avatar.e93cef30.jpg",
     "static/media/cake-2.dee5d433.gif": "/sinhnhatemyeu/static/media/cake-2.dee5d433.gif",
     "static/media/cmsn.317a6e82.mp3": "/sinhnhatemyeu/static/media/cmsn.317a6e82.mp3",
@@ -22,10 +22,10 @@
     "static/media/gift-open.53130b37.gif": "/sinhnhatemyeu/static/media/gift-open.53130b37.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.2c7c50c2.js",
-    "static/css/2.383c0125.chunk.css",
-    "static/js/2.960aef49.chunk.js",
+    "static/js/runtime-main.25716bab.js",
+    "static/css/2.f1b2261f.chunk.css",
+    "static/js/2.3ca108d0.chunk.js",
     "static/css/main.45fd82c0.chunk.css",
-    "static/js/main.b8018c9f.chunk.js"
+    "static/js/main.9cb7ec8a.chunk.js"
   ]
 }
