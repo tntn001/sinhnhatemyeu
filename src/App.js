@@ -17,23 +17,19 @@ import { initializeApp } from "firebase/app";
 import {getDatabase, ref,set, child,get, update} from"firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCUDiUCemNaHX9XEYClli401gb98w0mwVk",
-  authDomain: "snbt-1111.firebaseapp.com",
-  databaseURL: "https://snbt-1111-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "snbt-1111",
-  storageBucket: "snbt-1111.appspot.com",
-  messagingSenderId: "568454598924",
-  appId: "1:568454598924:web:70751893714db054403929",
-  measurementId: "G-7EGH9921SG"
+  apiKey: "AIzaSyAP0uOjlWbFr7AqjBU2H5FtjOBx0e9982Y",
+  authDomain: "sinhnhat-beyeu.firebaseapp.com",
+  databaseURL:"https://sinhnhat-beyeu-default-rtdb.firebaseio.com/",
+  projectId: "sinhnhat-beyeu",
+  storageBucket: "sinhnhat-beyeu.appspot.com",
+  messagingSenderId: "515138832919",
+  appId: "1:515138832919:web:80890adb214154393faa52",
+  measurementId: "G-2J0P7B8DRD"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const dataBase = getDatabase(app);
-
-
-
-
 
 class App extends React.Component {
 
@@ -63,6 +59,7 @@ class App extends React.Component {
 
   handleSubmit(event) {
     console.log("wish " + this.state.wish);
+    this.audio.play();
     //event.preventDefault();
   }
 
@@ -105,9 +102,6 @@ class App extends React.Component {
     update(ref(dataBase,"gift/"+key),obj);
   }
 
-
-
-
   render() {
     return (
       <div >         
@@ -117,8 +111,7 @@ class App extends React.Component {
         {this.birthdayCake()}      
         {this.giftOne()} 
         {this.giftTwo()}
-        {this.giftThree()}        
-        {this.popupOpenGift()}
+        {this.giftThree()}
         {this.formTreaty()}
         {this.buttonWish()}
       </div>)
@@ -126,13 +119,13 @@ class App extends React.Component {
   }
 
   name() {
-    return (<h3 style={textNameStyle}>{"Pé Tâm 17 Tuổi ❤"}</h3>);
+    return (<h3 style={textNameStyle}>{"Pé Pey 18 Tuổi ❤"}</h3>);
   }
   congrate() {
     return (<h3 style={textCongrateStyle}>{"Sinh Nhật Zui Zẻ Nhe"}</h3>);
   }
   date() {
-    return (<h3 style={textDateStyle}>{"(11/11/2021)"}</h3>);
+    return (<h3 style={textDateStyle}>{"(01/07/2024)"}</h3>);
   }
 
   chooseGift() {
